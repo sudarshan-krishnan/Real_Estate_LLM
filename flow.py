@@ -41,3 +41,8 @@ writer = Agent(
     verbose=True,
 )
 
+crew = Crew(agents=[researcher, writer], tasks=[task1, task2], verbose=2)
+
+task_output = crew.kickoff()
+print(task_output)
+
