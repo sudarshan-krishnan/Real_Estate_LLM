@@ -9,3 +9,13 @@ llm = Ollama(model="openhermes")
 
 search_tool = SerperDevTool()
 
+researcher = Agent(
+    llm=llm,
+    role="Senior Property Researcher",
+    goal="Find promising investment properties.",
+    backstory="You are a veteran property analyst. In this case you're looking for retail properties to invest in.",
+    allow_delegation=False,
+    tools=[search_tool],
+    verbose=True,
+)
+
