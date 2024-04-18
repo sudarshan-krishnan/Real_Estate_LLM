@@ -11,8 +11,8 @@
 "Search the internet and find 5 promising real estate investment suburbs in Sydney, Australia. For each suburb highlighting the mean, low and max prices as well as the rental yield and any potential factors that would be useful to know for that area."
 """A detailed report of each of the suburbs.The results should be formatted as shown below: 
 
-    Suburb 1: Randosuburbville
-    Mean Price: $1,200,000
+    Suburb 1: Canteburry
+    Mean Price: $400,000
     Rental Vacancy: 4.2%
     Rental Yield: 2.9%
     Background Information: These suburbs are typically located near major transport hubs, employment centers, and educational institutions. The following list highlights some of the top contenders for investment opportunities """
