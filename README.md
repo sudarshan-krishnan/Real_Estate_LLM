@@ -10,22 +10,11 @@ The script defines two main roles:
 
 The agents perform tasks using the `Ollama` language model from the `langchain_community.llms` and tools from `crewai_tools` to enhance their research capabilities.
 
-## Installation
+## Configuration
 
-Before running the script, ensure you have Python installed and then install the required packages:
+Used my own API key from serper.dev to use the SerperDevTool. 
 
-```bash
-pip install crewai langchain_community crewai_tools
-
-
-Configuration
-
-You must provide your own SERPER_API_KEY to use the SerperDevTool. Replace the SERPER_API_KEY in the script with your actual API key.
-
-import os
-os.environ["SERPER_API_KEY"] = "your_actual_api_key_here"
-
-Output
+## Output
 
 The agents' activities are logged in detail, and the outputs of their tasks are saved to text files:
 
@@ -35,10 +24,14 @@ Contributing
 
 Feel free to fork this repository and submit pull requests to enhance the functionality or add new features.
 
-License
+## License
 
 This project is licensed under the MIT License - see the LICENSE.md file for details.
 
-Disclaimer
+## Disclaimer
 
 This tool is for educational and research purposes only. Always verify your data with official sources.
+
+---
+
+Author : Sudarshan Krishnan
