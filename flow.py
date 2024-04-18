@@ -40,6 +40,12 @@ writer = Agent(
     allow_delegation=False,
     verbose=True,
 )
+task2 = Task(
+    description="Summarise the property information into bullet point list. ",
+    expected_output="A summarised dot point list of each of the suburbs, prices and important features of that suburb.",
+    agent=writer,
+    output_file="task2_output.txt",
+)
 
 crew = Crew(agents=[researcher, writer], tasks=[task1, task2], verbose=2)
 
