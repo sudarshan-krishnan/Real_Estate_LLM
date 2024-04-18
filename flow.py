@@ -32,3 +32,12 @@ task1 = Task(
     output_file="task1_output.txt",
 )
 
+writer = Agent(
+    llm=llm,
+    role="Senior Property Analyst",
+    goal="Summarise property facts into a report for investors.",
+    backstory="You are a real estate agent, your goal is to compile property analytics into a report for potential investors.",
+    allow_delegation=False,
+    verbose=True,
+)
+
